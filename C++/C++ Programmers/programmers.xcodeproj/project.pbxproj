@@ -10,6 +10,8 @@
 		61007CCF2AB70FCA00DBC892 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61007CCE2AB70FCA00DBC892 /* main.cpp */; };
 		61007CD72AB726B000DBC892 /* Programmers_87389.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61007CD52AB726B000DBC892 /* Programmers_87389.cpp */; };
 		610DEA7B2AD42E8200349A18 /* Programmers12943.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 610DEA792AD42E8200349A18 /* Programmers12943.cpp */; };
+		614A00D52AE4F72D0035FF62 /* Programmers12940.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 614A00D32AE4F72D0035FF62 /* Programmers12940.cpp */; };
+		6183200C2ADD58A700D2BDD2 /* Programmers86051.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6183200A2ADD58A700D2BDD2 /* Programmers86051.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		61007CD62AB726B000DBC892 /* Programmers_87389.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers_87389.hpp; sourceTree = "<group>"; };
 		610DEA792AD42E8200349A18 /* Programmers12943.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers12943.cpp; sourceTree = "<group>"; };
 		610DEA7A2AD42E8200349A18 /* Programmers12943.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers12943.hpp; sourceTree = "<group>"; };
+		614A00D32AE4F72D0035FF62 /* Programmers12940.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers12940.cpp; sourceTree = "<group>"; };
+		614A00D42AE4F72D0035FF62 /* Programmers12940.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers12940.hpp; sourceTree = "<group>"; };
+		6183200A2ADD58A700D2BDD2 /* Programmers86051.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers86051.cpp; sourceTree = "<group>"; };
+		6183200B2ADD58A700D2BDD2 /* Programmers86051.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers86051.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				61007CD62AB726B000DBC892 /* Programmers_87389.hpp */,
 				610DEA792AD42E8200349A18 /* Programmers12943.cpp */,
 				610DEA7A2AD42E8200349A18 /* Programmers12943.hpp */,
+				6183200A2ADD58A700D2BDD2 /* Programmers86051.cpp */,
+				6183200B2ADD58A700D2BDD2 /* Programmers86051.hpp */,
+				614A00D32AE4F72D0035FF62 /* Programmers12940.cpp */,
+				614A00D42AE4F72D0035FF62 /* Programmers12940.hpp */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -129,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6183200C2ADD58A700D2BDD2 /* Programmers86051.cpp in Sources */,
+				614A00D52AE4F72D0035FF62 /* Programmers12940.cpp in Sources */,
 				61007CCF2AB70FCA00DBC892 /* main.cpp in Sources */,
 				610DEA7B2AD42E8200349A18 /* Programmers12943.cpp in Sources */,
 				61007CD72AB726B000DBC892 /* Programmers_87389.cpp in Sources */,
