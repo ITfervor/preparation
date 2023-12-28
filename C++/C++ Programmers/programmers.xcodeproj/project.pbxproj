@@ -12,6 +12,8 @@
 		610DEA7B2AD42E8200349A18 /* Programmers12943.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 610DEA792AD42E8200349A18 /* Programmers12943.cpp */; };
 		614A00D52AE4F72D0035FF62 /* Programmers12940.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 614A00D32AE4F72D0035FF62 /* Programmers12940.cpp */; };
 		614A00DB2AECF4C20035FF62 /* Programmers12926.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 614A00D92AECF4C20035FF62 /* Programmers12926.cpp */; };
+		614A00DE2AEFCC700035FF62 /* Programmers12915.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 614A00DC2AEFCC700035FF62 /* Programmers12915.cpp */; };
+		614B31192B00AB3800ADC47A /* Programmers42748.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 614B31172B00AB3800ADC47A /* Programmers42748.cpp */; };
 		6183200C2ADD58A700D2BDD2 /* Programmers86051.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6183200A2ADD58A700D2BDD2 /* Programmers86051.cpp */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,10 @@
 		614A00D42AE4F72D0035FF62 /* Programmers12940.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers12940.hpp; sourceTree = "<group>"; };
 		614A00D92AECF4C20035FF62 /* Programmers12926.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers12926.cpp; sourceTree = "<group>"; };
 		614A00DA2AECF4C20035FF62 /* Programmers12926.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers12926.hpp; sourceTree = "<group>"; };
+		614A00DC2AEFCC700035FF62 /* Programmers12915.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers12915.cpp; sourceTree = "<group>"; };
+		614A00DD2AEFCC700035FF62 /* Programmers12915.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers12915.hpp; sourceTree = "<group>"; };
+		614B31172B00AB3800ADC47A /* Programmers42748.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers42748.cpp; sourceTree = "<group>"; };
+		614B31182B00AB3800ADC47A /* Programmers42748.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers42748.hpp; sourceTree = "<group>"; };
 		6183200A2ADD58A700D2BDD2 /* Programmers86051.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Programmers86051.cpp; sourceTree = "<group>"; };
 		6183200B2ADD58A700D2BDD2 /* Programmers86051.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Programmers86051.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +89,10 @@
 				614A00D42AE4F72D0035FF62 /* Programmers12940.hpp */,
 				614A00D92AECF4C20035FF62 /* Programmers12926.cpp */,
 				614A00DA2AECF4C20035FF62 /* Programmers12926.hpp */,
+				614A00DC2AEFCC700035FF62 /* Programmers12915.cpp */,
+				614A00DD2AEFCC700035FF62 /* Programmers12915.hpp */,
+				614B31172B00AB3800ADC47A /* Programmers42748.cpp */,
+				614B31182B00AB3800ADC47A /* Programmers42748.hpp */,
 			);
 			path = programmers;
 			sourceTree = "<group>";
@@ -148,6 +158,8 @@
 				614A00D52AE4F72D0035FF62 /* Programmers12940.cpp in Sources */,
 				61007CCF2AB70FCA00DBC892 /* main.cpp in Sources */,
 				610DEA7B2AD42E8200349A18 /* Programmers12943.cpp in Sources */,
+				614A00DE2AEFCC700035FF62 /* Programmers12915.cpp in Sources */,
+				614B31192B00AB3800ADC47A /* Programmers42748.cpp in Sources */,
 				614A00DB2AECF4C20035FF62 /* Programmers12926.cpp in Sources */,
 				61007CD72AB726B000DBC892 /* Programmers_87389.cpp in Sources */,
 			);
