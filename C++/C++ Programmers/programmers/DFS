@@ -1,0 +1,48 @@
+#include <map>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+char* value;
+
+
+int mapArr[7][7] =
+{
+	0,0,0,0,1,0,1,
+	0,0,0,0,0,1,0,
+	1,1,0,1,0,0,0,
+	0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,
+	0,0,0,0,0,0,0,
+};
+
+void run(int idx) {
+	
+	for (int i = 0; i < idx; i++) {
+		if (mapArr[idx][i] == 1) {
+			value[i] = i;
+			run(i);
+		}
+	}
+}
+
+int main() {
+	int idx;
+	cin >> idx;
+	value = new char[idx];
+	
+	run(0);
+
+	for (size_t i = 0; i < idx; i++) {
+		if (mapArr[i][0] == 1) {
+			cout << i << endl;
+			for (size_t j = 0; j < idx; j++) {
+				if (mapArr[0][j] == 1) {
+					cout << j;
+				}
+			}
+		}
+	}
+}
