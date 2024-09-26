@@ -1,0 +1,58 @@
+#include <cmath>
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int solution(int n);
+
+bool Num[1000001];
+vector<int> vec;
+
+//기초적으로 확인하기 위한 함수 false가 되어야 소수 이므로 vec에 값을  삽입한다.
+bool IsDec(int n) {
+	
+	//요소 하나하나 판별해서 소수인지 확인
+	for (auto& i : vec) {
+		//i의 요소가 n의 제곱근보다 큰지 확인 예를 들어 12의 제곱근이면 3.xx...이다.
+		if (i > sqrt(n)) {
+			return true;
+		}
+		//들어온 값을 vec내부의 요소로 나누었을 때 나누어 지면 false
+		if(n % i == 0) {
+			return false;
+		}
+	}
+	return true;
+
+}
+
+int solution(int n) {
+	int answer = n - 1;
+	for (int i = 2; i < n; i++) {
+
+		if (!Num[i] && IsDec(i)) {
+			//소수를 해당 vector에 삽입한다.
+			vec.push_back(i);
+			for (int j = 2 * i; j <= n; j += i) {
+				if (!Num[j]) {
+					//true로 변경되는 값들은 소수가 아닌 부분들이다.
+					Num[j] = true;
+					answer--;
+				}
+			}
+		}
+	}
+	return answer;
+}
+
+int main() {
+	int a = solution(12);
+
+	cout << a << endl;
+
+	for (size_t i = 0; i < vec.size(); i++) {
+		cout << vec[i] << endl;
+	}
+}
